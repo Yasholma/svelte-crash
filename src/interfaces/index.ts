@@ -4,3 +4,9 @@ export interface IUser {
   username: string;
   email: string;
 }
+
+export interface IFeedback {
+  id: number;
+  rating: number;
+  text: string;
+}
